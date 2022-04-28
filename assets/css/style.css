@@ -1,0 +1,18 @@
+#log-container {
+    border-top: solid 1px #e9ecef;
+    margin-top: 1rem;
+}
+
+.log-line {
+    display: block;
+    font-size: small;
+    margin: 10px 0;
+}
+
+.log-line.sub-level {
+    padding-left: 20px;
+}
+
+.progress-container {
+    margin-top: 1rem;
+}

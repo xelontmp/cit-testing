@@ -1,0 +1,168 @@
+ </table>   <p><b> </b></p>   <p align="center"><b> </b></p>     <blok></blok>    </content>
+<applications></applications>
+<style>
+#electronic-document nameutv,
+#electronic-document namesogl{
+	font-weight: bold;	
+	min-height: 50px;	
+    text-align: center;
+	display: block;
+    font-size: 14px;    
+	text-transform: uppercase;
+	display: table-cell;
+    text-align: center;
+    width: 270px;
+	float: left;   
+	padding-bottom: 12px;
+	padding-left: 30px; 
+	padding-right: 30px;
+}
+
+Signature{display:none !important;} 
+#electronic-document {
+    display: block !important;
+    position: relative;
+    width: 660px;
+    margin: 24px auto;
+    padding: 52px 52px 52px 104px;
+    background-color: #fff;
+    border: #c6c6c6 1px solid;
+    font-family: Arial, sans-serif;
+}
+#electronic-document *:not(a) {
+    cursor: default;
+}
+:root {
+    background-color: #e6e6e6;
+}
+
+#electronic-document header,
+#electronic-document content,
+#electronic-document applications
+{
+    display: block;	
+}
+
+#electronic-document content th, td { padding: 0px;}
+#electronic-document content table{table-layout:fixed; width="70%"}
+
+#electronic-document applications application number:not(:empty):after { content: "." }
+
+#electronic-document container { position: relative; }
+#electronic-document e-doc:not(:empty) {
+    position: absolute;
+    display: block;
+    text-align: right;
+    color: #eee;
+   top: 15px;
+   right: 52px;
+}
+
+#electronic-document content {	
+    white-space: pre-line;
+    text-align: justify;
+    text-indent: 1.5cm;
+    line-height: 1.5em;
+}
+
+#electronic-document content p {
+    margin-top: -2px;
+    margin-bottom: -2px;
+   }
+
+#electronic-document header {	
+    line-height: 1.5em;
+	font-weight: bold;	
+	text-align: center;
+}
+#electronic-document content {clear: both;}
+
+#electronic-document reg
+{
+   float: left;
+   display: table-cell !important;
+   font-size: 12px;
+   padding: 10px 12px 14px 12px;
+}		
+
+
+#electronic-document reg datareg,
+#electronic-document reg regtown
+{ 
+    display: inline-block;
+    padding: 3px;
+    vertical-align: top;
+}
+#electronic-document reg datareg{
+    width: 300px;
+}
+#electronic-document reg regtown{
+    width: 300px;
+	text-align: right;
+}
+
+#electronic-document applications application:not(:empty)
+{
+    display: list-item;
+    list-style-type: none;
+    padding: 3px 0;
+}
+#electronic-document applications application,
+#electronic-document applications application:not(:empty) {
+    list-style-type: decimal;
+    margin-left: 120px;
+}
+
+@-moz-document url-prefix() {
+    #electronic-document applications application:not(:empty) {
+        list-style-type: none;    }  }
+
+#electronic-document applications:not(:empty):before { 
+    content: "приложение:";
+    display: block;
+    position: absolute;
+    left: 103;
+    margin-top: 5px;
+}
+
+#electronic-document applications application number {
+   display: inline-block;
+}
+
+#electronic-document applications application number,
+#electronic-document applications application name {
+    padding: 3px;
+}
+
+#electronic-document applications application name,
+#electronic-document content table td {
+    word-wrap:break-word;
+}
+
+#electronic-document content table td {
+	text-indent:0;
+}
+
+#electronic-document header:not(:empty),
+#electronic-document content:not(:empty),
+#electronic-document applications application:last-child
+{
+    padding-bottom: 12px;
+}
+
+#electronic-document applications application data,
+#electronic-document servinfo signaturesxml
+{
+    display: none;
+}
+container {
+    display: block;
+}
+
+blok {display: block; padding-top: 30px;}
+</style>
+</container>
+<servinfo>
+<signaturesxml></signaturesxml>
+</servinfo>
+</body2></htmlx>

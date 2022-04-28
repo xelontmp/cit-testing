@@ -1,0 +1,21 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->         
+<htmlx xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<body2>
+<container id="electronic-document" style="display: none;">
+        <e-doc>Электронный документ</e-doc>
+<nameutv></nameutv>
+<namesogl></namesogl>
+	<reg>
+           <datareg></datareg>
+           <regtown></regtown>
+	</reg>
+	<header>Красивый заголовок
+	</header>
+<content>        
+<table border="1" cellspacing="0" cellpadding="0" width="600">  
+    <tr>     
+        <td width="64">     <p align="center"><b>ID услуги</b></p></td>     
+        <td width="250">     <p align="center"><b>Наименование гос. услуги</b></p></td>     
+        <td width="171">     <p align="center"><b>ОИГВ - поставщик госуслуги</b></p></td>     
+        <td width="172">     <p align="center"><b>Назначение платежа</b></p></td>    
+    </tr>    
